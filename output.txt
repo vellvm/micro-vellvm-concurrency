@@ -1,0 +1,41 @@
+TSO example (ex_tso in Examples.v)
+SC:[
+0 1 
+1 0 
+1 1 
+]
+TSO:[
+0 0 
+0 1 
+1 0 
+1 1 
+]
+PS:[
+0 0 
+0 1 
+1 0 
+1 1 
+]
+
+PS example (ex_ps in Examples.v)
+SC:[
+0 0 
+1 0 
+1 1 
+]
+TSO:[
+0 0 
+1 0 
+1 1 
+]
+PS:[
+0 0 
+0 1 
+1 0 
+1 1 
+]
+PS (acq/rel variant, ex_ra in Examples.v):[
+0 0 
+1 0 
+1 1 
+]

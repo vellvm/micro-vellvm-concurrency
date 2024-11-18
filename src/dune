@@ -1,0 +1,13 @@
+;(coq.theory
+;  (name CTreeMem)
+;  (package coq-ctrees-memory-models)
+;)
+
+(env
+  (dev
+    (flags (:standard -warn-error -A -w -32 -w -33 -w -34))))
+
+(executables
+  (names main)
+  (libraries extracted)
+)
